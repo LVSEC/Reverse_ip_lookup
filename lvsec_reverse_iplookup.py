@@ -15,8 +15,8 @@ signal.signal(signal.SIGINT, sig_handler)
 def print_banner():
 	figfont = 'xtty' #you can list fonts by typing pyfiglet --list fonts
 	figinit = pyfiglet.Figlet(font=figfont)
-	aflab_banner = "AFLAB-SECURITY"
-	print(tm.colored(figinit.renderText(aflab_banner),'yellow'))
+	lv_banner = "LVSEC"
+	print(tm.colored(figinit.renderText(lv_banner),'yellow'))
 
 print_banner()
 
